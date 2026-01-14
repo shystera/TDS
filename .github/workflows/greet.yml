@@ -14,5 +14,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Step for 23f2001200@ds.study.iitm.ac.in
-        run: echo "Hello, world! This step is for verifying the email address in the step name."
+      - name: 23f2001200@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
