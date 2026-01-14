@@ -1,0 +1,18 @@
+name: Greeting Workflow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Step for 23f2001200@ds.study.iitm.ac.in
+        run: echo "Hello, world! This step is for verifying the email address in the step name."
